@@ -1,3 +1,29 @@
+# Compiled object files
+*.o
+*.ko
+*.mod
+*.cmd
+*.symvers
+*.order
+
+# Kernel build artifacts
+Module.symvers
+modules.order
+
+# Python cache and environments
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Logs
+*.log
+
+# Editor files
+*~
+*.swp
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
